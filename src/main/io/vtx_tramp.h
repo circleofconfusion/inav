@@ -29,6 +29,16 @@
 #define VTX_TRAMP_5G8_MIN_FREQUENCY_MHZ 5000             //min freq in MHz
 #define VTX_TRAMP_5G8_MAX_FREQUENCY_MHZ 5999             //max freq in MHz
 
+// 3.3 GHz
+#define VTX_TRAMP_3G3_BAND_COUNT        2
+#define VTX_TRAMP_3G3_CHANNEL_COUNT     8
+
+#define VTX_TRAMP_3G3_MAX_POWER_COUNT   4
+#define VTX_TRAMP_3G3_DEFAULT_POWER     1
+
+#define VTX_TRAMP_3G3_MIN_FREQUENCY_MHZ 3000             //min freq in MHz
+#define VTX_TRAMP_3G3_MAX_FREQUENCY_MHZ 3999             //max freq in MHz
+
 // 1.3 GHz
 #define VTX_TRAMP_1G3_BAND_COUNT        2
 #define VTX_TRAMP_1G3_CHANNEL_COUNT     8

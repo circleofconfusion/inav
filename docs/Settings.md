@@ -6504,7 +6504,7 @@ Channel to use within the configured `vtx_band`. Valid values are [1, 8].
 
 ### vtx_frequency_group
 
-VTx Frequency group to use. Frequency groups: FREQUENCYGROUP_5G8: 5.8GHz, FREQUENCYGROUP_2G4: 2.4GHz, FREQUENCYGROUP_1G3: 1.3GHz.
+VTx Frequency group to use. Frequency groups: FREQUENCYGROUP_5G8: 5.8GHz, FREQUENCYGROUP_2G4: 2.4GHz, FREQUENCYGROUP_1G3: 1.3GHz, FREQUENCYGROUP_3G3: 3.3GHz.
 
 | Default | Min | Max |
 | --- | --- | --- |

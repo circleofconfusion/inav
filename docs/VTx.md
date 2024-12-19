@@ -22,6 +22,27 @@ Power levels are:
 | A    | 1080 | 1120 | 1160 | 1200 | 1240 | 1280 | 1320 | 1360 |
 | B    | 1080 | 1120 | 1160 | 1200 | 1258 | 1280 | 1320 | 1360 |
 
+#### RushFPV 3G3 Setup
+
+To use the RushFPV 3.3 GHz 2W VTX with IRC Tramp. You will need to enter the CLI
+command `set vtx_frequency_group = FREQUENCYGROUP_3G3`. You must also make sure that the initial VTx settings in the configuration tab are in a valid range. They are: 
+- `vtx_band` 1 or 2
+- `vtx_channel` between 1 and 8
+
+##### RushFPV 3G3 frequency chart
+
+| Band | 1    | 2    | 3    | 4    | 5    | 6    | 7    | 8    |
+|------|------|------|------|------|------|------|------|------|
+| A    | 3330 | 3350 | 3370 | 3390 | 3410 | 3430 | 3450 | 3470 |
+| B    | 3170 | 3190 | 3210 | 3230 | 3250 | 3270 | 3290 | 3310 |
+
+##### RushFPV 3G3 2W VTX power levels
+
+| Power Level(mW) | PIT | 1   | 2   | 3    | 4    |
+|-----------------|-----|-----|-----|------|------|
+| Value           | 0   | 25  | 200 | 1000 | 2000 |
+
+
 ### Team BlackSheep SmartAudio
 
 If you have problems getting SmartAudio working. There are a couple of CLI parameters you can try changing to see if they help.
